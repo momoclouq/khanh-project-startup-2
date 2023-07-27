@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --scrollbar-width: 9px;
+}
+
+body::-webkit-scrollbar {
+  width: scrollbarwidthpx;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper-home-details-about-pricing {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* .App {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.back {
+  color: black;
+  text-align: center;
+}
+.back h1 {
+  font-size: 100px;
+  font-weight: 400;
+}
+.back h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}

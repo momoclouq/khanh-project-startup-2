@@ -1,0 +1,56 @@
+.banner {
+    background-image: url("../../assets/images/bannerPriceAndAbout.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 1728px;
+    height: 120px;
+    margin-top: 70px;
+}
+
+.banner h1{
+    margin-top: 29px;
+    margin-left: 140px;
+    color:#FFF;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34.5px;
+}
+
+.content{
+    margin-top: 390px;
+    text-align: center;
+}
+
+.content h2{
+    color: #2E2C2C;
+text-align: center;
+font-size: 33px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+line-height: 69.3px;
+}
+
+.content .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 231px;
+    margin-left: 216px;
+    margin-right: 216px;
+}
+
+.content .logo img{
+    width:199px;
+    height: 199px;
+    
+}
+
+.content .logo h4{
+    color:  #8C8888;
+    margin-top: 40px;
+    
+}

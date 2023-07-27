@@ -1,0 +1,117 @@
+.pricing-containter .banner {
+  background-image: url("../../assets/images/bannerPriceAndAbout.png");
+  position: relative;
+  top: 0;
+  left: -200px;
+  z-index: -1;
+  width: 1728px;
+  height: 120px;
+  display: flex;
+}
+
+.pricing-containter .banner h1 {
+  margin-top: 39px;
+  margin-left: 140px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 34.5px;
+}
+
+.content {
+  margin-top: 390px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #2e2c2c;
+  text-align: center;
+  font-size: 33px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 210%;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 313px;
+  height: 481px;
+}
+
+.price .items {
+  padding: 40px;
+  text-align: center;
+}
+.price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #1eb2a6;
+}
+.price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+
+.price h3 {
+  width: 100%;
+  height: 35px;
+  background-color: #f6f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price h3 span {
+  font-size: 23px;
+  color: #0c4ca3;
+  text-align: center;
+}
+.price p {
+  color: grey;
+  margin-top: 20px;
+  width: 250px;
+  height: 96px;
+}
+
+.price .discount-background {
+  width: 137px;
+  height: 44px;
+  border-radius: 33px;
+  background-color: #fd3f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price h2 .discount {
+  color: #fff;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48.36px;
+  text-align: center;
+  width: 124px;
+  height: 44px;
+  margin: 20px 0;
+  background-color: #fd3f3f;
+  border-radius: 33px;
+  padding: 13px 10px;
+}
+
+.price h2 .no-discount {
+  color: #fff;
+
+  width: 124px;
+  height: 44px;
+  margin: 20px 0;
+}
+@media screen and (max-width: 970px) {
+  .pricing-containter .content {
+    margin-top: 0px;
+  }
+}

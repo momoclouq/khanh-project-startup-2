@@ -1,0 +1,145 @@
+.content {
+  position: relative;
+}
+
+.content .why-options {
+  flex-wrap: wrap;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.content .why-options .why-element {
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+.content .why-banner {
+  left: 50%;
+  margin-top: -150px;
+  margin-left: 300px;
+  z-index: -1;
+}
+
+.join {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.join h1 {
+  color: #5f6368;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.join .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.join .container .join-img img {
+  width: 566px;
+  height: 523px;
+}
+
+.join .container .join-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.join .container .join-description p {
+  width: 627px;
+  height: 219px;
+  color: #2e2c2c;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 242.5%;
+}
+
+.ready {
+  margin-top: 200px;
+  background-color: #f3f9fb;
+  width: 100%;
+  height: 1136px;
+}
+
+.ready h1 {
+  text-align: center;
+  margin-bottom: 170px;
+}
+
+.ready-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 200px;
+}
+
+.ready .ready-container .ready-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+}
+
+.ready .ready-container .ready-element p {
+  width: 184px;
+  height: 95px;
+  text-align: center;
+}
+
+.ready .ready-container .ready-element .img {
+  width: 98px;
+  height: 98px;
+}
+
+.join-button {
+  margin-left: 550px;
+}
+
+@media screen and (max-width: 970px) {
+  .content,
+  .content .why-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content .why-options {
+    text-align: center;
+  }
+  .content .why-options .why-element {
+    margin-right: 0px;
+  }
+  .join .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .ready{
+    margin-top: 50px;
+  }
+  .ready .ready-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+  .ready h1{
+    margin-bottom: 10px;
+  }
+  .join-button{
+    margin-left: 0px;
+  }
+}

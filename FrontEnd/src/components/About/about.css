@@ -1,0 +1,114 @@
+.about-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .banner {
+    background-image: url("../../assets/images/bannerPriceAndAbout.png");
+    position: relative;
+    top: 0;
+    left: -200px;
+    z-index: -1;
+    width: 1728px;
+    height: 120px;
+  }
+
+  .banner h1 {
+    margin-top: 39px;
+    margin-left: 140px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34.5px;
+  }
+
+  .content {
+    margin-top: 200px;
+
+    text-align: center;
+  }
+
+  .content h2 {
+    color: #2e2c2c;
+    text-align: center;
+    font-size: 33px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 210%;
+  }
+
+  .content .description-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content .description-section img {
+    width: 412px;
+    height: 281px;
+    border-radius: 19px;
+  }
+
+  .content .description-section p {
+    display: flex;
+
+    flex-direction: column;
+    text-align: start;
+    flex-shrink: 0;
+    width: 718px;
+    height: 175px;
+    margin-right: 104px;
+
+    color: #2e2c2c;
+    font-size: 23px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .content .why-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content .why-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content .why-items {
+    box-shadow: 0 4px 16px 0px rgb(0 0 0 / 15%);
+    border-radius: 25px;
+    width: 412px;
+    height: 153px;
+    margin-bottom: 100px;
+  }
+
+  .content .why-items h4 {
+    padding-top: 24px;
+    text-align: start;
+    margin-left: 33px;
+    color: #2e2c2c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 164.5%; /* 21.385px */
+  }
+
+  .content .why-items p {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 24px;
+    text-align: start;
+    color: #2e2c2c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 164.5%;
+  }
+}

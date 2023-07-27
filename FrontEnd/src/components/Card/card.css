@@ -1,0 +1,19 @@
+.Stars {
+    --percent: calc(var(--ratingStart) / 5 * 100%);
+    --percent: calc(4 / 5 * 100%);
+
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1;
+
+    &::before {
+        content: '★★★★★';
+        letter-spacing: 3px;
+        background: linear-gradient(to right, #FED66F var(--percent), #d2b9b9 var(--percent));
+        /* background: linear-gradient(to right, red 50%, #fff 50%); */
+
+        
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
